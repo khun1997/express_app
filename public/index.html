@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express App</title>
+  </head>
+  <body>
+    <h1>Add New Product</h1>
+    <form method="post" action="/product">
+      <label for="id"> Enter product id </label>
+      <br />
+      <input type="number" name="newId" placeholder="e.g- 1" required />
+      <br />
+      <br />
+
+      <label for="name">Enter product name</label>
+      <br />
+      <input type="text" name="newName" placeholder="iPhone X" required />
+      <br />
+      <br />
+
+      <label for="image">Put product image</label>
+      <br />
+      <input type="file" name="newImage" placeholder="IMG.jpg" />
+      <br />
+      <br />
+
+      <label for="rom">Enter product rom</label>
+      <br />
+      <input type="radio" name="newRom" value="64" />
+      <label for="rom">64GB</label><br />
+
+      <input type="radio" name="newRom" value="128" />
+      <label for="rom">128GB</label><br />
+      <input type="radio" name="newRom" value="256" />
+      <label for="">256GB</label><br />
+
+      <br />
+      <br />
+
+      <label for="price">Enter product price</label>
+      <br />
+      <input type="number" name="newPrice" placeholder="123456" required />
+
+      <br />
+      <br />
+      <button type="submit">Save</button>
+    </form>
+  </body>
+</html>

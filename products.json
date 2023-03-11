@@ -1,0 +1,65 @@
+[
+    {
+        "id": 0,
+        "key": 0,
+        "name": "iPhone 14 Pro Max",
+        "image": "https://cdn.shopify.com/s/files/1/0654/0630/4468/products/iPhone_14_Pro_Max_Deep_Purple_PDP_Image_Position-1A_Deep_Purple_Color_SEA_1024x1024.jpg?v=1662967340",
+        "rom": "128",
+        "price": "3,450,000",
+        "detail": "This is iph14promax"
+    },
+    {
+        "id": 1,
+        "key": 1,
+        "name": "iPhone 14 Pro",
+        "image": "https://cdn.shopify.com/s/files/1/0654/0630/4468/products/iPhone_14_Pro_Gold_PDP_Image_Position-1A_Gold_Color_SEA_1024x1024.jpg?v=1662967905",
+        "rom": "128",
+        "price": "3,100,000",
+        "detail": "This is iph 14pro"
+    },
+    {
+        "id": 2,
+        "key": 2,
+        "name": "iPhone 14 Plus",
+        "image": "https://cdn.shopify.com/s/files/1/0654/0630/4468/products/iPhone_14_Plus_Blue_PDP_Image_Position-1A_Blue_Color_SEA_1024x1024.jpg?v=1663225772",
+        "rom": "128",
+        "price": "2,650,000",
+        "detail": "This is iph14plus"
+    },
+    {
+        "id": 3,
+        "key": 3,
+        "name": "iphone 14",
+        "image": "https://cdn.shopify.com/s/files/1/0654/0630/4468/products/iPhone_14_ProductRED_PDP_Image_Position-1A_ProductRED_Color_SEA_1024x1024.jpg?v=1662968889",
+        "rom": "256",
+        "price": "2,490,000",
+        "detail": "This is iph14"
+    },
+    {
+        "id": 4,
+        "key": 4,
+        "name": "iphone 13",
+        "image": "https://cdn.shopify.com/s/files/1/0654/0630/4468/products/iPhone_13_PDP_Position-1A_Color_Pink__SEA_1024x1024.jpg?v=1659007185",
+        "rom": "256",
+        "price": "2,115,000",
+        "detail": "This is iph13"
+    },
+    {
+        "id": 5,
+        "key": 5,
+        "name": "iphone 12",
+        "image": "https://cdn.shopify.com/s/files/1/0654/0630/4468/products/iphone_12_white_1024x1024.png?v=1659006930",
+        "rom": "128",
+        "price": "1,915,000",
+        "detail": "This is iph12"
+    },
+    {
+        "id": 6,
+        "key": 6,
+        "name": "iphone 11",
+        "image": "https://cdn.shopify.com/s/files/1/0654/0630/4468/products/iphone_11_yellow_.png_3_1024x1024.png?v=1659006788",
+        "rom": "64",
+        "price": "1,340,000",
+        "detail": "This is iph11"
+    }
+]
