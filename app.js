@@ -43,7 +43,7 @@ app.put("/products/:id", (req, res) => {
   if (!product) {
     res.status(200).send("<h1>New product is added</h1>");
   } else {
-    res.status(409).send("<h1>Product is already have!</h1>");
+    res.status(409).send("<h1>Product is already in list!</h1>");
   }
 });
 
