@@ -1,11 +1,11 @@
 const express = require("express");
-const bodyParser = require("body-parser");
 const app = express();
 const port = 3000;
 const products = require("./products.json");
+// const bodyParser = require("body-parser");
 // // const updateData = require("./update_phone_products.json");
-// app.use(express.urlencoded({extended:true}))
-// app.use(express.static("public"));
+app.use(express.urlencoded({extended:true}))
+app.use(express.static("public"));
 // // app.use(express.static("/delete.html"));
 
 // app.use(bodyParser.urlencoded({ extended: true }));
@@ -33,7 +33,7 @@ app.post("/product", (req, res) => {
     rom: req.body.newRom,
     price: req.body.newPrice,
   });
-  res.status(200).send(`${newProduct}`);
+  res.status(201).send(`${newProduct}`);
 });
 
 // //PUT method
