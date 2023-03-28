@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const products = require("./products.json");
 // const bodyParser = require("body-parser");
-// // const updateData = require("./update_phone_products.json");
+
 app.use(express.urlencoded({extended:true}))
 app.use(express.static("public"));
 // // app.use(express.static("/delete.html"));
